@@ -162,3 +162,12 @@ footer a {
 .radius.right.button:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
+#firefox {
+    display: none;
+}
+
+@-moz-document url-prefix() {
+  #firefox {
+     display: inline;
+  }
+}

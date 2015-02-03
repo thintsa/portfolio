@@ -165,9 +165,8 @@ footer a {
 #firefox {
     display: none;
 }
-
 @-moz-document url-prefix() {
-  #firefox {
-     display: inline;
-  }
+    #firefox {
+        display: inline;
+    }
 }
